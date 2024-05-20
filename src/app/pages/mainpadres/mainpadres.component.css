@@ -1,0 +1,30 @@
+:host { 
+  display: contents; 
+}
+.mainpadres-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #c1ffc2;
+}
+.mainpadres-container1 {
+  flex: 0 0 auto;
+  width: 373px;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.mainpadres-select {
+  width: 450px;
+  height: 37px;
+  align-self: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-halfunit);
+  background-color: #e1e1e1;
+}

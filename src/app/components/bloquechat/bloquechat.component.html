@@ -1,0 +1,73 @@
+<div class="bloquechat-container" [ngClass]="rootClassName">
+  <div class="bloquechat-container01">
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name5"
+    ></app-usuariochat>
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name"
+    ></app-usuariochat>
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name1"
+    ></app-usuariochat>
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name2"
+    ></app-usuariochat>
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name4"
+    ></app-usuariochat>
+    <app-usuariochat
+      rootClassName="usuariochat-root-class-name3"
+    ></app-usuariochat>
+  </div>
+  <div class="bloquechat-container02">
+    <div class="bloquechat-container03">
+      <img
+        [attr.alt]="imageAlt"
+        [attr.src]="imageSrc"
+        class="bloquechat-image"
+      />
+      <div class="bloquechat-container04">
+        <div class="bloquechat-container05">
+          <span class="bloquechat-text">
+            <span class="bloquechat-text01">
+              Estefanía
+              <span [innerHTML]="raw2ydn"></span>
+            </span>
+            <span class="bloquechat-text02">
+              Morales
+              <span [innerHTML]="raw310v"></span>
+            </span>
+            <span class="bloquechat-text03">de la Hoz</span>
+          </span>
+        </div>
+        <div class="bloquechat-container06">
+          <span class="bloquechat-text04">{{ text4 }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="bloquechat-container07">
+      <div class="bloquechat-container08">
+        <span class="bloquechat-text05">{{ text5 }}</span>
+      </div>
+      <div class="bloquechat-container09">
+        <span class="bloquechat-text06">{{ text }}</span>
+      </div>
+      <div class="bloquechat-container10">
+        <span class="bloquechat-text07">{{ text1 }}</span>
+      </div>
+      <div class="bloquechat-container11">
+        <span class="bloquechat-text08">{{ text2 }}</span>
+      </div>
+      <div class="bloquechat-container12">
+        <span class="bloquechat-text09">{{ text3 }}</span>
+      </div>
+    </div>
+    <div class="bloquechat-container13">
+      <input
+        type="text"
+        [attr.placeholder]="textinputPlaceholder"
+        class="bloquechat-textinput input"
+      />
+    </div>
+  </div>
+</div>
